@@ -1,5 +1,4 @@
 const express = require('express');
-const jwl = require('jsonwebtoken');
 require('./db/mongoose');
 const userRouter = require('./router/userRoute');
 const taskRouter = require('./router/taskRoute');
